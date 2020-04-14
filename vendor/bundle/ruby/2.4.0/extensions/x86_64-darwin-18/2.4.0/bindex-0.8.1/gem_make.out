@@ -1,0 +1,15 @@
+current directory: /Users/sayuri/environment_2/sample_app_2/vendor/bundle/ruby/2.4.0/gems/bindex-0.8.1/ext/skiptrace
+/Users/sayuri/.rbenv/versions/2.4.4/bin/ruby -I /Users/sayuri/.rbenv/versions/2.4.4/lib/ruby/site_ruby/2.4.0 -r ./siteconf20200414-94983-1nrawr4.rb extconf.rb
+creating Makefile
+
+current directory: /Users/sayuri/environment_2/sample_app_2/vendor/bundle/ruby/2.4.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" clean
+
+current directory: /Users/sayuri/environment_2/sample_app_2/vendor/bundle/ruby/2.4.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR="
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.bundle
+
+current directory: /Users/sayuri/environment_2/sample_app_2/vendor/bundle/ruby/2.4.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 cruby.bundle ./.gem.20200414-94983-1dizlf2/skiptrace/internal
