@@ -1,3 +1,8 @@
+=begin
+spec/rails_helper.rbの役割
+Rails特有の設定を書く
+=end
+
 # This file is copied to spec/ when you run 'rails generate rspec:install'
 require 'spec_helper'
 ENV['RAILS_ENV'] ||= 'test'

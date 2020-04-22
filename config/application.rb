@@ -19,6 +19,8 @@ module SampleApp2
                        controller_specs: false
     end
 
+    config.generators.system_tests = nil
+
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
