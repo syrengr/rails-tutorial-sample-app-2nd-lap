@@ -1,8 +1,4 @@
 Rails.application.routes.draw do
-  get 'sessions/new'
-
-  get 'sessions/destroy'
-
   get 'user/new'
 
   get 'users/new'
