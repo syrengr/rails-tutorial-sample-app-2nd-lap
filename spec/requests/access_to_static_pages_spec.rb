@@ -1,6 +1,4 @@
-=begin
-static_pagesコントローラのテスト
-=end
+# static_pagesコントローラのテスト
 
 require 'rails_helper'
 

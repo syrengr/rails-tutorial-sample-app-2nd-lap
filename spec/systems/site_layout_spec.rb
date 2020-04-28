@@ -1,6 +1,4 @@
-=begin
-site_layoutのテスト
-=end
+# site_layoutのテスト
 
 require 'rails_helper'
 

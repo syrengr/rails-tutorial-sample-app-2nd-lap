@@ -1,7 +1,5 @@
-=begin
-spec/rails_helper.rbの役割
-Rails特有の設定を書く
-=end
+# spec/rails_helper.rbの役割
+# Rails特有の設定を書く
 
 # This file is copied to spec/ when you run 'rails generate rspec:install'
 require 'spec_helper'
@@ -65,4 +63,10 @@ RSpec.configure do |config|
   config.filter_rails_from_backtrace!
   # arbitrary gems may also be filtered via:
   # config.filter_gems_from_backtrace("gem name")
+end
+Shoulda::Matchers.configure do |config|
+  config.integrate do |with|
+    with.test_framework :rspec
+    with.library :rails
+  end
 end

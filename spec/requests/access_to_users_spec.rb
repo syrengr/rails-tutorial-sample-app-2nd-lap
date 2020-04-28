@@ -1,6 +1,4 @@
-=begin
-usersコントローラーのテスト
-=end
+# usersコントローラーのテスト
 
 require 'rails_helper'
 
