@@ -1,6 +1,4 @@
-=begin
-application_helperのテスト
-=end
+# Applicationヘルパーのテスト
 
 require 'rails_helper'
 

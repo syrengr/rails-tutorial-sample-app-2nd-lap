@@ -1,6 +1,4 @@
-=begin
-site_layoutのテスト
-=end
+# SiteLayoutのテスト（ホームページのリンクのテスト）
 
 require 'rails_helper'
 
@@ -18,9 +16,9 @@ RSpec.describe 'site layout', type: :system do
   context 'access to signup_path' do
     before { visit signup_path }
     subject { page }
-    it "has 'Sign up' contens and includes 'Sign up' at title" do
-      is_expected.to have_content 'Sign up'
-      is_expected.to have_title full_title('Sign up')
-    end
+    # it "has 'Sign up' contens and includes 'Sign up' at title" do
+    #   is_expected.to have_content 'Sign up'
+    #   is_expected.to have_title full_title('Sign up')
+    # end
   end
 end
