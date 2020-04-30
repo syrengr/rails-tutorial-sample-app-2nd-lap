@@ -1,3 +1,4 @@
+# Userモデルのバリデーションテスト（password)
 # FactoryBotでユーザーの作成
 
 FactoryBot.define do

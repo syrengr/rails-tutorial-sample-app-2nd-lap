@@ -1,5 +1,12 @@
+# Micropostモデルのテスト
+
 require 'rails_helper'
 
 RSpec.describe Micropost, type: :model do
-  pending "add some examples to (or delete) #{__FILE__}"
+
+    # バリデーションのテスト
+    describe 'validations' do
+        it { is_expected.to validate_presence_of(:user_id) }
+        it { is_expected.to validate_presence_of(:content) }
+    end
 end
